@@ -1,0 +1,6 @@
+<html>
+	<body>
+		<h1> Jeff's Website </h1>
+		<p> Bookmark this page to kepp up to date with my projects </p>
+	</body>
+</html>
