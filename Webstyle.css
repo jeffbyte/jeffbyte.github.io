@@ -14,7 +14,6 @@ body{
 	background-color: #ffffff;
 }
 #logo {
-	width: 150px;
 	margin: 10px auto 25px auto;
 	}
 ul {
@@ -37,6 +36,9 @@ p {
 	}
 #bio{
 	text-align:left;
+}
+h2{
+	text-align:center;
 }
 a{
 	color:#b5clad;
@@ -74,6 +76,24 @@ a:hover, a.on {
 	clear:both;
 	background:rgba(0,0,0,0.2);
 	padding:5px 10px;
+}
+
+<------------------------------------------------------------------>
+/*
+  960 Grid System ~ Core CSS.
+  Learn more ~ http://960.gs/
+  Licensed under GPL and MIT.
+*/
+
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+  Note: IE6 works fine without this fix.
+*/
+
+body {
+  min-width: 960px;
 }
 
 /* `Container
